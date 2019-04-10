@@ -29,3 +29,4 @@ let articles = document.querySelectorAll('.article');
 articles.forEach(function(domElement) {
   const article = new Article(domElement);
 })
+
