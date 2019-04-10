@@ -91,7 +91,15 @@
 .article .close {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 0px;
+  font-size: 12px;
+  color: grey;
+  cursor: pointer;
+  transform: translate(-50%);
+  background-color: white;
+}
+.article-closed{
+  transform: scaleY(0);
 }
 .article .expandButton {
   position: absolute;
