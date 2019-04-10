@@ -25,7 +25,7 @@ class Article {
   }
   closeArticle() {
     this.domElement.classList.toggle('article-closed');
-    alert('You have hidden the article. You can show it by refreshing this page.')
+    alert('This article will be hidden from view. You can unhide it by refreshing this page.')
   }
 }
 
