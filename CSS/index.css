@@ -69,7 +69,7 @@
 }
 .article {
   margin: 20px 10%;
-  padding: 0 20px 25px;
+  padding: 0 0px 25px 20px;
   border: 1px solid lightgrey;
   border-radius: 10px;
   background-color: white;
@@ -91,12 +91,18 @@
 .article .close {
   position: absolute;
   top: 10px;
-  right: 0px;
+  right: -28px;
   font-size: 12px;
   color: grey;
   cursor: pointer;
   transform: translate(-50%);
-  background-color: white;
+  background-color: #efefef;
+  border: 1px solid #999999;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.article .close:hover {
+  background-color: #f8f8f8;
 }
 .article-closed{
   transform: scaleY(0);
